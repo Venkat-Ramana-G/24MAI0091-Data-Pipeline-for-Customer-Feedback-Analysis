@@ -11,4 +11,5 @@ Then Run the Following Command's in Different Command Prompts :
    
 3) \bin\windows\kafka-topics.bat --create --topic feedback --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1 --> To Create an Topic For Sending and Retrieving Messages.
 
-After Doing the Above Steps then start execution from Step 1 ( S1 ) in Repository
+After Doing the Above Steps then start execution from Step 1 ( S1 ) Producer in Repository and then Execute the Consumer to Retrieve the Messages Captured by Producer
+And After Retrieving Everything from Producer Stop the Execution of Consumer and Start Executing from Step 2 and subsequently all the files given in Repository will be created automatically ( PNG and CSV Files ).
